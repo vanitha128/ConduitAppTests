@@ -1,0 +1,6 @@
+{
+  "baseUrl": "https://demo.realworld.io/#",
+  "env": {
+    "apiUrl": "https://conduit.productionready.io"
+  }
+}

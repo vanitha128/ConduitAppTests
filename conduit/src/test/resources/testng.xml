@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="1" name="Test">
+		<!-- Uncomment this to send parameters from testng.xml <parameter name="email" 
+			value='' /> <parameter name="password" value='' /> -->
+		<classes>
+			<class
+				name="test.conduit.ConduitAPITestWithAuth" />
+			<class
+				name="test.conduit.ConduitAPITestWithoutAuth" />
+			<class
+				name="test.conduit.ConduitFrontEndSigninTest" />
+			<class
+				name="test.conduit.ConduitFrontEndSignupTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+<!-- sample of group run <groups> <run> <include name='critical'/> </run> 
+	</groups> -->
+  
+
